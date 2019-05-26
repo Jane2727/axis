@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="css/style.bundle.css" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <main>
+      <div class="container" id="container">
+        <div class="question">
+          <div class="symbol" id="number-0"></div>
+          <div class="symbol">+</div>
+          <div class="symbol" id="number-1"></div>
+          <div class="symbol">=</div>
+          <div class="symbol" id="sum">?</div>
+        </div>
+        <div class="axis">
+          <div class="axis-first-part" id="axis-first-part"></div>
+        </div>
+      </div>
+    </main>
+    <div class="next-button">
+      <button id="nextQuestion">Next</button>
+    </div>
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
